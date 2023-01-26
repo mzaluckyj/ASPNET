@@ -10,6 +10,6 @@ namespace Testing
         public IEnumerable<Product> GetAllProducts();
         public Product GetProduct(int id);
 
-        public Product UpdateProduct(Product product);
+        public void UpdateProduct(Product product);
     }
 }
